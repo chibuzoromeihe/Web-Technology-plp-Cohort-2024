@@ -1,0 +1,46 @@
+/*Header styling*/
+header{
+	background-color: rgba(131, 10, 10, 0.877);
+	padding: 20px;
+	color: white;
+	text-align: center;
+}
+/* lets give the intro a little style*/
+#introduction{
+	background-color: rgb(76, 171, 209);
+	margin: 20px;
+	padding: 20px;
+}
+.skills{
+	margin: 20px;
+	padding: 20px;
+}
+ul{
+	list-style: none;
+	padding: 10px;
+}
+li{
+	border: 3px solid rosybrown;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+/* contact info*/
+.contact{
+	background-color: rgb(2, 36, 19);
+	padding: 20px;
+	color: white;
+	margin: 20px;
+}
+
+/* applying responsive design*/
+@media only screen and (max-width: 600px) {
+	#introduction, .skills, .contact{
+		margin: 20px;
+	}
+	header{
+		padding: 20px;
+	}
+	li{
+		padding: 10px;
+	}
+}
